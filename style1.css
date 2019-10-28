@@ -1,0 +1,1107 @@
+*{padding:0; margin: 0}
+body
+{
+	font-family: Open-Sans;
+	color: white;
+	border:0px solid black;
+	background-image:url(images/backgroundcc.png);
+	background-attachment:fixed;
+}
+
+/* Import Font */
+@font-face {
+font-family:"Arial Gendut";
+src: url('Fonts/arialbd.ttf') format('truetype');
+font-weight:bold;
+font-style:normal;
+}
+
+@font-face {
+font-family:'Open-Sans';
+src: url('Fonts/OpenSans-Regular-webfont.eot') format('eot'),
+	 url('Fonts/OpenSans-Regular-webfont.woff') format('woff'),
+	 url('Fonts/OpenSans-Regular-webfont.ttf') format('truetype'),
+	 url('Fonts/OpenSans-Regular-webfont.woff') format('svg');
+font-weight:normal;
+font-style:normal;
+}
+
+@font-face {
+font-family:'Agency-FB';
+src: url('Fonts/AGENCYR.ttf') format('truetype');
+font-weight:normal;
+font-style:normal;
+}
+
+@font-face {
+font-family:'Agency-FB';
+src: url('Fonts/AGENCYB.ttf') format('truetype');
+font-weight:bold;
+font-style:normal;
+}
+
+@font-face {
+font-family:'Gun-Play';
+src: local("Helvetica Neue Bold"),
+local("HelveticaNeue-Bold"), url('Fonts/gunplay rg.otf') format('opentype');
+font-weight:bold;
+font-style:normal;
+}
+
+																						/* HOME */
+#halaman{
+    width: 1300px;
+	margin: auto;
+	padding-top: 10px}
+	
+#intro{
+	width:1320px;
+	height: 5px;
+	margin: 0px 0px 0px 0px;}
+	
+#header
+{
+	width: 1300px;
+	height: 409px;
+	background-image:url(images/bbaner.png);
+	margin-top:30px;
+	color: white;
+	}
+
+/* NAVIGASI */
+.nav  ul{
+	list-style:none;}
+	
+.nav  ul ul{
+	display:none;
+	position:absolute}
+	
+.nav ul li{
+	float: right;
+	list-style:none;
+	text-align: center}
+	
+.nav ul ul li{
+	float: none;
+	}
+	
+.nav ul li:hover ul{
+	display:block;
+	position: absolute}
+	
+.nav ul li a{
+	text-decoration: none;
+	background: white;
+	opacity:0.9;
+	width: 100px;
+	color:black;
+	display: block;
+	padding: 10px 10px 10px 10px;
+	border: 1px repeat-x repeat-y;
+	font-family:"Arial Gendut",Arial,Helvetica;
+	}
+	
+.nav ul ul li a{
+	text-decoration: none;
+	background: white;
+	opacity:0.9;	
+	width: 100px;
+	color:black;
+	position:inline-table;
+	display: block;
+	padding: 10px 10px 10px 10px;
+	border: 0px solid white;
+	font-family:"Arial Gendut",Arial,Helvetica;
+	}
+	
+.nav ul li a:hover{
+	background: red;
+	color:white;
+	border: 0px solid white;
+	}
+	
+.nav ul li a:active{
+	background: blue;
+	color:white;
+	border: 0px solid white;
+	}
+	
+.nav ul ul li a:hover{
+	background: red;
+	color:white;
+	border: 0px solid white;
+	}
+	
+.nav ul ul li a:active{
+	background: blue;
+	color:white;
+	border: 0px solid white;
+	}
+	
+#content2 {
+width: 390px;
+height: auto;
+padding-top: 20px;
+padding-bottom: 10px;
+float: right;
+margin-bottom:20px;}
+
+#content2 img{
+width:390px;
+height:auto;
+margin-bottom:20px;}
+
+#wrapper{
+width:850px;
+height:auto;
+float:left;}
+
+#wrapper h6{
+font-family:Gun-Play;
+font-size:45px;
+text-align:center;
+color:white;
+border-top: 3px dashed white;
+border-bottom: 3px dashed white;}
+
+#wrapper h6:hover{
+color:red;
+border-top: 3px dashed blue;
+border-bottom: 3px dashed blue;}
+
+/* MOTTO */
+#motto{
+text-align: center;
+width: 1290px;
+height: auto; 
+clear: both;
+font-size:45px;
+font-family:Bradley Hand ITC;
+font-weight:bold;
+color:blue;
+border: 5px solid red}
+
+/* BIO POST */
+#biopost{
+padding-top:10px;
+padding-bottom:10px;
+width:200px;
+font-family:Arial;
+font-size:20px;
+text-align:right;
+height:auto;
+float:left;}
+
+#biopost a{
+text-decoration:none;
+color:blue;
+margin-top:5px;}
+
+#biopost a:hover{
+text-decoration:underline;
+color:red;}
+
+#biopost a:active{
+color:green;}
+
+/* HOME WELLCOME */
+#homepost{
+padding:20px 10px 20px 10px;
+margin-left:220px;
+width:650px;
+height:auto;
+text-align:center;}
+
+#homepost h4{
+padding:10px 0px 10px 0px;
+font-family:Gun-Play;
+font-size:50px;
+text-align:center;
+border-bottom: 4px dashed red;
+border-top: 4px dashed red;}
+
+#homepost h4:hover{
+color:red;
+border-bottom: 4px dashed blue;
+border-top: 4px dashed blue;}
+
+#homepost h2{
+padding:20px 0px 20px 0px;
+font-family:Gun-Play;
+font-size:45px;
+text-align:center;
+border-bottom: 3px dashed red;
+border-top: 3px dashed red;}
+
+#homepost h2:hover{
+color:red;
+border-bottom: 4px dashed blue;
+border-top: 4px dashed blue;}
+
+/* DOWNLOAD POST */
+#download{
+text-align: center;
+width: 1300px;
+height: auto; 
+clear: both;
+font-family:Agency-FB;
+background-color:#ccccff;
+padding-top:15px;
+float: left}
+
+#download h1 {
+font-family:Gun-Play;
+font-size:30px;
+font-weight:bold;
+text-transform:uppercase;
+color:black;
+background-color:#cc0000 ;
+margin-bottom:15px;
+}
+#files{
+width:1300px;
+height:auto;}
+
+#files a img {
+text-align:center;
+width:150px;
+margin:10px 20px 10px 20px;}
+
+#files a:hover img {
+position:overflow;
+transition:all 0.3s ease;
+box-shadow:0px 0px 30px blue;
+}
+
+a.moredownloads {
+font-family:Agency-FB;
+font-size:28px;
+font-weight:bold;
+letter-spacing:3px;
+text-transform:uppercase;
+text-decoration:none;
+color:blue;
+text-align:center;
+}
+
+a.moredownloads:hover {
+color:red;
+}
+
+/* LATEST POST */
+#latestpost{
+width: 390px;
+height: auto;
+background-color:black;
+padding-top:15px;
+padding-bottom:15px;
+margin-top:-10px;}
+
+#latestpost h1{
+width: 390px;
+height: auto;
+text-align:center;
+background-color: #cc0000;
+font-family:Gun-Play;
+font-size: 36px;
+margin-bottom:10px;}
+
+#cuplikan {
+float:left;
+font-size:12px;
+width:370px;
+background-color:black;
+text-align:left;
+padding:10px 10px 10px 10px;
+}
+
+#cuplikan:hover {
+background-color:#8b0303;
+transition:all 0.5s ease;
+}
+
+#cuplikan a {
+font-family:Arial;
+font-size:24px;
+text-transform:uppercase;
+text-decoration:none;
+color:blue;
+}
+
+#cuplikan p {
+color:#fefefe;
+line-height:14.5px;
+text-align:justify;
+width:370px;
+padding-bottom:10px;
+}
+
+#cuplikan a:hover {
+color:#000000;
+transition:all 0.2s ease;}
+
+a.morepost {
+width:390px;
+float:left;
+color:red;
+font-family:Agency-FB;
+font-size:30px;
+font-weight:bold;
+letter-spacing:4px;
+text-transform:uppercase;
+text-decoration:none;
+text-align:center;
+background-color:black;
+margin-bottom:10px;
+}
+
+a.morepost:hover {
+color:white;
+}
+
+/* FOOTER */
+#footer{
+font-family:Defult;
+width: auto; 
+clear: both;
+background-color:white;
+opacity:0.7;
+padding-bottom:5px;
+padding-top:5px;
+margin-bottom:10px;
+color: black;}
+
+#footer a{ 
+text-decoration:none;
+color: black;}
+
+#footer a:hover{
+text-decoration:underline;
+color:red}
+
+/* SEARCH */
+#search{
+background-color:white;
+opacity:0.7;
+color:black;
+width: 380px;
+height: auto;
+border: 0px solid black;
+float: right;
+text-align:right;
+text-decoration:none;
+font-family:Agency-FB;
+padding: 5px 5px 5px 5px;
+margin-top: -20px;}
+
+/* IKLAN GAMBAR */
+#iklankanan{
+width:380px;
+height:auto;
+clear:both;}
+
+/* INFO BAWAH */
+#infobawah{
+width:1300px;
+height:auto;
+clear:both;
+border-top:2px solid white;}
+
+/* VRENGKY */
+#vrengky{
+width:200px;
+height:auto;
+float:left;
+margin-top:20px;
+text-align:left;
+font-family:Arial;
+font-size:20px;}
+
+#vrengky a{
+text-decoration:none;
+color:blue;}
+
+#vrengky a:hover{
+color:white;}
+
+/* OTHER SIDE */
+#otherside{
+width:200px;
+height:auto;
+float:right;
+margin-top:-150px;
+text-align:right;
+font-family:Arial;
+font-size:20px;}
+
+#otherside a{
+text-decoration:none;
+color:blue;}
+
+#otherside a:hover{
+color:white;}
+
+
+/* SOCIAL NETWORKS */
+#socialnetwork{
+margin-left:10px;
+margin-right:10px;
+margin-top:20px;
+text-align: center;
+width: 680px;
+height: auto;
+font-family:Agency-FB;}
+
+#sosmedicons {
+text-align:center;
+}
+
+#sosmedicons a{
+margin-left:4px;
+margin-right:4px;
+background-position:center;
+background-repeat:repeat;;
+}
+
+#sosmedicons a:hover img {
+-webkit-transition:all 1s ease;
+-moz-transition:all 1s ease;
+-ms-transition:all 1s ease;
+-o-transition:all 1s ease;
+transition:all 1s ease;
+background-color:red;
+opacity: 0.7;
+}
+
+/* PHOTOSVIEW */
+#fotohome{
+text-align: center;
+width: 1300px;
+height: auto; 
+clear: both;
+font-family:Agency-FB;
+background-color:#ccccff;
+padding-top:15px;}
+
+#fotohome h1 {
+font-family:Gun-Play;
+font-size:30px;
+font-weight:bold;
+text-transform:uppercase;
+color:black;
+background-color:#cc0000 ;
+margin-bottom:15px;
+}
+
+#thumbnails {
+text-align:center;
+}
+
+#thumbnails a img {
+width:150px;
+box-shadow:0px 0px 3px #323232;
+
+}
+#thumbnails a:hover img {
+width:200px;
+position:overflow;
+transition:all 0.5s ease;
+box-shadow:0px 0px 30px blue;
+transform:scale(2.2);}
+
+a.morephotos {
+font-family:Agency-FB;
+font-size:28px;
+font-weight:bold;
+letter-spacing:3px;
+text-transform:uppercase;
+text-decoration:none;
+color:blue;
+}
+
+a.morephotos:hover {
+color:red;
+}
+																						/* ARTICLES */
+#articles{
+width: 850px;
+height: auto;
+padding: 20px 20px 20px 20px;
+float: left;
+clear: both;
+text-align:left;
+margin-bottom:10px;
+border-top:3px solid white;
+border-bottom:3px solid white;}
+
+#articles:hover{
+background-color:white;
+color:black;}
+ 
+#articles:hover a{
+color:black;}
+
+#articles:hover h3{
+border-top:1px dashed black;
+border-bottom:1px dashed black;
+background-color:white;
+color:black;}
+
+#articles h3{
+font-family:Agency-FB;
+font-size:30px;
+text-align:left;
+color:white;
+border-top:1px dashed white;
+border-bottom:1px dashed white;
+}
+
+#articles img{
+float:left;
+margin:10px;}
+
+#articles a{
+text-decoration:none;
+color:white;}
+
+#articles a:hover{
+color:red;}
+
+#articles p{
+padding:10px;
+text-align:left;
+font-family:Arial;
+font-size:14px;}
+
+/* READ MORE */
+#readmore{
+float:right;
+padding:5px;
+width:80px;
+height:auto;
+border-radius:5px 5px 5px 5px;
+background-color:red;
+font-family:Open-Sans;
+font-size:13px;}
+
+#readmore a{
+text-decoration:none;
+color:white;}
+
+#readmore a:hover{
+color:white;}
+
+#readmore a:active{
+color:black;}
+
+/* ISI ARTIKEL */
+#articlesfiles{
+width: 850px;
+height: auto;
+padding: 0px 20px 20px 20px;
+float: left;
+clear: both;
+margin-bottom:10px;
+border-top:3px solid white;
+border-bottom:3px solid white;}
+
+#articlesfiles h5{
+text-align:center;
+font-family:Gun-Play;
+font-size:28px;
+color:white;
+margin:10px;}
+
+#articlesfiles p{
+text-align:left;
+font-family:Open-sans;
+color:white;
+font-size:14px;}
+
+/* BACK TO ARTICLES */
+#backtoarticles{
+width:auto;
+height:auto;
+background-color:white;
+opacity:0.8;
+color:black;
+text-align:center;
+font-family:Gun-Play;
+font-size:26px;
+float:right;}
+
+#backtoarticles a{
+text-decoration:none;
+color:black;}
+
+#backtoarticles a:hover{
+color:white;
+background-color:red;}
+
+																						/* DOWNLOADS */
+#downloadss{
+width: 850px;
+height: auto;
+padding: 20px 20px 20px 20px;
+float: left;
+clear: both;
+text-align:left;
+margin-bottom:10px;
+border:3px solid white;}
+
+#downloadss:hover{
+background-color:white;
+opacity:0.8;
+color:black;
+border:1px dashed black;}
+ 
+#downloadss:hover a{
+color:white;}
+
+#downloadss:hover h3{
+border-top:1px solid black;
+background-color:black;}
+
+#downloadss h3{
+padding-left:20px;
+font-family:Agency-FB;
+font-size:30px;
+text-align:left;
+background-color:white;
+opacity:0.8;
+border:2px dashed black;
+}
+
+#downloadss img{
+float:left;
+margin:10px;
+width:150px;}
+
+#downloadss a{
+text-decoration:none;
+color:black;}
+
+#downloadss a:hover{
+color:red;}
+
+#downloadss p{
+padding:10px;
+text-align:left;
+font-family:Arial;
+font-size:14px;}
+
+#download_left{
+float:right;
+width:290px;
+height:auto;
+text-align:center;
+border:2px dashed white;}
+
+#autoimages{
+width:690px;
+height:auto;}
+
+/* MORE DOWNLOADS */
+#downloadsini{
+width:auto;
+height:auto;
+float:right;}
+
+/* ISI DOWNLOADS */
+#downloadssfiles{
+width: 850px;
+height: auto;
+padding: 0px 20px 20px 20px;
+float: left;
+clear: both;
+margin-bottom:10px;
+border-top:3px solid white;
+border-bottom:3px solid white;}
+
+#downloadssfiles h5{
+text-align:center;
+font-family:Gun-Play;
+font-size:50px;
+color:white;
+margin:10px;}
+
+#downloadssfiles p{
+text-align:left;
+font-family:Open-sans;
+color:white;
+font-size:14px;}
+
+#downloadssfiles img{
+width:250px;
+height:auto;}
+
+/* BACK TO DOWNLOADS */
+#backtodownloadss{
+width:240px;
+height:auto;
+background-color:white;
+opacity:0.8;
+color:black;
+text-align:center;
+font-family:Gun-Play;
+font-size:20px;
+float:left;}
+
+#backtodownloadss a{
+text-decoration:none;
+color:black;}
+
+#backtodownloadss a:hover{
+color:white;
+background-color:red;}
+
+/* HOW TO DOWNLOADS */
+#downloaddisini{
+clear:both;
+width:266;
+height:64;}
+
+#downloaddisini:hover{
+box-shadow: 0px 0px 20px red;}
+
+#downloaddisini:active{
+box-shadow: 0px 0px 20px blue;}
+
+																								/* BIO */
+
+#vrengkyandrisetiawan{
+border-top:2px solid white;
+width:1300px;
+height:955px;
+background-image:url(images/band.png);
+padding-top:20px;
+font-family:Arial;
+font-size:17px;
+clear:both;}
+
+#vrengkyandrisetiawan h1 {
+font-family:Gun-Play;
+text-align:center;
+font-size: 60px;
+color:black;
+background-color:white;
+opacity:0.5}
+
+#vrengkykiri{
+width:650px;
+height:auto;
+float:left;
+text-align:left;}
+
+#vrengkykiri a:hover{
+background-color:red;}
+
+#vrengkykanan{
+width:650x;
+height:auto;
+float:right;
+text-align:right;}
+
+#vrengkyandrisetiawan h2 {
+font-family:Agency-FB;
+font-size:30px;
+color:white;}
+
+																								/* BLOGS */
+/* FRAME DOWNLOADS */																					
+#frames{
+width:1300px;
+height:auto;}
+
+#framedownloads{
+width:610px;
+margin:10px;
+height:auto;
+float:left;
+border: 3px solid white;}
+
+#framedownloads h2{
+font-family:Gun-Play;
+font-size:45px;
+text-align:center;
+color:white;
+border-top: 3px dashed white;
+border-bottom: 3px dashed white;}
+
+#framedownloads h2:hover{
+color:blue;}
+
+#framedown{
+width: auto;
+height: auto;
+padding: 10px 10px 10px 10px;
+float: left;
+clear: both;
+text-align:left;
+margin-bottom:10px;
+border:3px solid white;}
+
+#framedown:hover{
+background-color:white;
+opacity:0.8;
+color:black;
+border:1px dashed black;}
+ 
+#framedown:hover a{
+color:white;}
+
+#framedown:hover h3{
+border-top:1px solid black;
+background-color:black;}
+
+#framedown h3{
+padding-left:20px;
+font-family:Agency-FB;
+font-size:30px;
+text-align:left;
+background-color:white;
+opacity:0.8;
+border:2px dashed black;
+}
+
+#framedown img{
+float:left;
+margin:10px;
+width:100px;}
+
+#framedown a{
+text-decoration:none;
+color:black;}
+
+#framedown a:hover{
+color:red;}
+
+#downloadss p{
+padding:10px;
+text-align:left;
+font-family:Arial;
+font-size:14px;}
+
+/* MORE DOWNLOADS */
+#moreframedown{
+width:auto;
+clear:both;
+height:30px;
+color:white;
+text-align:center;
+font-family:Gun-Play;
+font-size:30px;
+border-bottom:3px dashed white;
+border-top:3px dashed white;}
+
+#moreframedown a{
+text-decoration:none;
+color:white;}
+
+#moreframedown a:hover{
+color:red;}
+
+#moreframedown a:active{
+color:blue;}
+
+/* FRAME ARTICLES */
+#framearticles{
+margin:10px;
+width:610px;
+height:auto;
+float:right;
+border: 3px solid white;}
+
+#framearticles h2{
+font-family:Gun-Play;
+font-size:45px;
+text-align:center;
+color:white;
+border-top: 3px dashed white;
+border-bottom: 3px dashed white;}
+
+#framearticles h2:hover{
+color:blue;}
+
+#frameart{
+width: auto;
+height: auto;
+padding: 10px 10px 10px 10px;
+float: left;
+clear: both;
+text-align:left;
+margin-bottom:10px;
+border-top:3px solid white;
+border-bottom:3px solid white;}
+
+#frameart:hover{
+background-color:white;
+color:black;}
+ 
+#frameart:hover a{
+color:black;}
+
+#frameart:hover h3{
+border-top:1px dashed black;
+border-bottom:1px dashed black;
+background-color:white;
+color:black;}
+
+#frameart h3{
+font-family:Agency-FB;
+font-size:30px;
+text-align:left;
+color:white;
+border-top:1px dashed white;
+border-bottom:1px dashed white;
+}
+
+#frameart img{
+float:left;
+margin:10px;}
+
+#frameart a{
+text-decoration:none;
+color:white;}
+
+#frameart a:hover{
+color:red;}
+
+#frameart p{
+padding:10px;
+text-align:left;
+font-family:Arial;
+font-size:14px;}
+
+																								/* GUEST BOOK */
+#gbframe{
+width:auto;
+height:auto;
+padding:20px 50px 20px 50px;
+border:2px solid blue;
+font-family:open-sans;
+font-size:16px;}
+
+#gbframe h1{
+font-family:gun-play;
+font-size:40px;
+color:blue;
+text-align:center;
+background-color:white;
+opacity:0.8;
+margin-top:20px;
+margin-bottom:20px;
+border-bottom:4px dashed red;
+border-top:4px dashed red;}
+
+#gbframe h1:hover{
+color:red;
+border-bottom:4px dashed blue;
+border-top:4px dashed blue;}
+
+#gbframe th{
+font-family:gun-play;
+font-size:28px;
+color:red;}
+
+																									/* CONTACT */
+#contactframe{
+width:auto;
+height:auto;
+padding:20px 50px 20px 50px;
+border:5px solid red;
+font-family:open-sans;
+font-size:16px;}
+
+#contactframe h1{
+font-family:gun-play;
+font-size:40px;
+color:red;
+text-align:center;
+background-color:white;
+opacity:0.8;
+margin-top:20px;
+margin-bottom:20px;
+border-bottom:2px dashed blue;
+border-top:2px dashed blue;}
+
+#contactframe h2{
+font-family:agency-fb;
+font-size:28px;
+color:blue;}
+
+																							/* PHOTOS */
+#photosframe{
+width:1300px;
+height:1300px;
+border: 4px solid red;
+background-image:url(gallery/Photos/home.png);}
+
+#photosframe img{
+width:400px;
+height:auto;}
+
+#photosframe img:hover{
+width:420px;
+position:overflow;
+transition:all 0.5s ease;
+transform:scale(2.2);}
+
+#photosframe h1{
+font-family:Gun-Play;
+font-size:60px;
+text-align:center;
+opacity:0.7;
+color:white;
+margin-top:60px;}
+
+#photosframe h1:hover{
+color:red;}
+
+/* PHOTO KI */
+#photoski{
+width:1300px;
+height:938px;
+border: 4px solid red;
+background-image:url(gallery/Photos/ki/bg.png);}
+
+#photoski img{
+width:250px;
+height:auto;
+margin:10px;
+box-shadow: 0px 0px 25px green;}
+
+#photoski img:hover{
+width:250px;
+box-shadow: 0px 0px 25px red;}
+
+#photoski img:active{
+width:250px;
+box-shadow: 0px 0px 25px blue;}
+
+#photoski h1{
+margin-top:100px;
+margin-bottom:50px;
+font-family:Gun-Play;
+font-size:60px;
+text-align:center;
+opacity:0.7;
+color:white;
+padding-top:60px;}
+
+#photoski h1:hover{
+color:red;}
+
+#backtogallery a{
+width:auto;
+height:auto;
+font-family:Gun-Play;
+font-size:40px;
+text-align:center;
+opacity:0.7;
+color:white;
+padding-top:60px;
+text-decoration:none;}
+
+#backtogallery a:hover{
+color:red;}
